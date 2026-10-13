@@ -1,13 +1,17 @@
 import './App.css'
-import Card from './Card'
+import { Card, Card2, Card3, Card4 } from './Card'
 
 function App() {
   return (
-    <>
-    <h1>Willkommen</h1>
-    <Card />
-    <Card />
-    </>
+    <div>
+      <h1>Sehenswürdigkeiten</h1>
+      <div className="card-container">
+        <Card />
+        <Card2 />
+        <Card3 />
+        <Card4 />
+      </div>
+    </div>
   )
 }
 
