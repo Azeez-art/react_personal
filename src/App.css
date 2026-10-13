@@ -3,9 +3,9 @@ h1{
   font-weight: bold;
 }
 .card{
-  padding: 2rem
-  border-radius: 2px;
+  padding: 2rem;
   border: 1px solid black;
+  border-radius: 2px;
 }
 .card-container{
   display: flex;
