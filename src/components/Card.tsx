@@ -1,4 +1,4 @@
-import styles from './Card'
+import styles from "./card.module.css";
 
 interface CardProps {
   title: string;
@@ -6,7 +6,7 @@ interface CardProps {
   image?: string;
 }
 
-function Card({ title, text, image = "https://picsum.photos/200/300" }: CardProps) {
+function Card({ title, text, image}: CardProps) {
   return (
     <div className={styles.card}>
       <h2>{title}</h2>
